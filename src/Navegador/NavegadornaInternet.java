@@ -1,3 +1,4 @@
+package Navegador;
 public interface NavegadornaInternet {
     public void exibirPagina();
     public void adicionarNovaAba();

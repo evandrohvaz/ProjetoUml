@@ -1,4 +1,8 @@
-public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadornaInternet{
+import MidiaPlayer.ReprodutorMusical;
+import Navegador.NavegadornaInternet;
+import Telefonia.AparelhoTelefonico;
+
+public class TelefoneMultiuso implements AparelhoTelefonico, ReprodutorMusical, NavegadornaInternet{
 
     @Override
     public void ligar() {
