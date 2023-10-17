@@ -4,7 +4,7 @@ public class ReprodutorMusicalabst implements ReprodutorMusical{
 
     @Override
     public void tocar() {
-        System.out.println("Tocando musica selecionada");;
+        System.out.println("Tocando musica selecionada");
     }
 
     @Override

@@ -1,6 +1,6 @@
 package Navegador;
 
-public class NavegadorInternerabs implements NavegadornaInternet{
+public class NavegadorInternerabs implements NavegadorNaInternet{
 
     @Override
     public void exibirPagina() {

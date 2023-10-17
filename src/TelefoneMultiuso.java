@@ -1,8 +1,8 @@
 import MidiaPlayer.ReprodutorMusical;
-import Navegador.NavegadornaInternet;
+import Navegador.NavegadorNaInternet;
 import Telefonia.AparelhoTelefonico;
 
-public class TelefoneMultiuso implements AparelhoTelefonico, ReprodutorMusical, NavegadornaInternet{
+public class TelefoneMultiuso implements AparelhoTelefonico, ReprodutorMusical, NavegadorNaInternet{
 
     @Override
     public void ligar() {
